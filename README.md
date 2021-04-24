@@ -4,10 +4,10 @@
 To correctly identify high risk credit card applications, so additional information can be gathered as part of the approval process. 
 ## Credit Risk Analysis Results
 
-The following table identies the reults from six different models. These metrics will be used to to evaluate each algorithm's efficacy:
+The following table identifies the results from six different models. These metrics will be used to evaluate each algorithm's efficacy:
 - Accuracy Score: the ratio of number of correct predictions to the total number of input samples. 
 - Precision : the number correctly classified as positive out of all positives.
-- Sensitivity(Recall): the ratio between between the correctly identified as positive to the number of which are actually positive.
+- Sensitivity(Recall): the ratio between the correctly identified as positive to the number of which are actually positive.
 - F1 score: the Harmonic Mean between precision and recall, where the best score is 1.0 and the worst is 0.0.
 
 
@@ -24,5 +24,5 @@ The following table identies the reults from six different models. These metrics
 
 Recall is a key metric when selecting a model in our case as it's important to detect potentially high risk applicants. It's acceptable if some low risk applicants are incorrectly classified as high risk. We would like to avoid a high risk applicant being classified as low risk by our model. Since accurate identification of high risk applicants is paramount, we are not focusing on the precision metric or associated F1 score. 
 
-The model we're recommending is the **Easy Ensemble AdaBoost Classifier**. This model has an overall accuracy score of 93% which is 15 points better than the next best model. More importantly, the recall value of 0.92 for the high risk classified items indicates that there will be a samll number of high risk applicants incorrectly classified as low risk. It is ultimately up to the organization to determine if it's acceptable for approxiametly 8 out of each 100 high risk applications are mis-classified. 
+The model we're recommending is the **Easy Ensemble AdaBoost Classifier**. This model has an overall accuracy score of 93% which is 15 points better than the next best model. More importantly, the recall value of 0.92 for the high risk classified items indicates that there will be a small number of high risk applicants incorrectly classified as low risk. It is ultimately up to the organization to determine if it's acceptable for approximately 8 out of each 100 high risk applications are mis-classified. 
 
