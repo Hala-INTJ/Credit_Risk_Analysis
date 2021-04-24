@@ -1,9 +1,7 @@
 # Challenge 17: Credit Risk Analysis
-
-To correctly identify high risk credit card applications, so additional information can be gathered as part of the approval process. 
-
 ## Overview of Credit Risk Analysis
 
+To correctly identify high risk credit card applications, so additional information can be gathered as part of the approval process. 
 ## Credit Risk Analysis Results
 
 The following table identies the reults from six different models. These metrics will be used to to evaluate each algorithm's efficacy:
@@ -26,5 +24,5 @@ The following table identies the reults from six different models. These metrics
 
 Recall is a key metric when selecting a model in our case as it's important to detect potentially high risk applicants. It's acceptable if some low risk applicants are incorrectly classified as high risk. We would like to avoid a high risk applicant being classified as low risk by our model. Since accurate identification of high risk applicants is paramount, we are not focusing on the precision metric or associated F1 score. 
 
-The model we're recommending is the Easy Ensemble AdaBoost Classifier. This model has an overall accuracy score of 93% which is 15 points better than the next best model. More importantly, the recall value of 0.92 for the high risk classified items indicates that there will be a samll number of high risk applicants incorrectly classified as low risk. It is ultimately up to the organization to determine if it's acceptable for approxiametly 8 out of each 100 high risk applications are mis-classified. 
+The model we're recommending is the **Easy Ensemble AdaBoost Classifier**. This model has an overall accuracy score of 93% which is 15 points better than the next best model. More importantly, the recall value of 0.92 for the high risk classified items indicates that there will be a samll number of high risk applicants incorrectly classified as low risk. It is ultimately up to the organization to determine if it's acceptable for approxiametly 8 out of each 100 high risk applications are mis-classified. 
 
